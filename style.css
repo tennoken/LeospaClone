@@ -1,0 +1,106 @@
+body {
+  box-sizing: border-box;
+  color: #6c6c6f;
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 27px;
+}
+
+section h2 {
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.inner {
+  display: flex;
+}
+
+.header__menu {
+  display: flex;
+  align-items: flex-end;
+}
+
+.header__menu ul {
+  display: flex;
+}
+
+.header__menu li {
+  margin: 0 20px;
+}
+
+/* banner */
+
+.banner {
+  background: url(./images/leaf.png) no-repeat left center/12.5%;
+  padding: 5% 0;
+}
+
+.banner .spa-wrapper {
+}
+
+.banner img {
+  width: 40%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.banner__text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 425px;
+  line-height: 1.5;
+  width: 600px;
+}
+
+.banner__text-box h2 {
+  font-family: "Rufina", serif;
+  font-size: 65px;
+  font-weight: 700;
+  color: #212529;
+  line-height: 76px;
+  margin: 40px 0;
+}
+
+.banner__text-box p {
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+.banner__text-box .btn-wrapper {
+}
+
+.banner__text-box .btn {
+  background-color: #ff817e;
+  border-radius: 0;
+  color: #fff;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 0.8;
+  text-transform: uppercase;
+  min-width: 170px;
+  padding: 20px 15px;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+}
+
+.banner__text-box .btn:hover {
+  color: #212529;
+}
+
+.banner__text-box button {
+  background: #ff817e;
+  width: 170px;
+  height: 45px;
+  color: #ffffff;
+  font-size: 20px;
+}
