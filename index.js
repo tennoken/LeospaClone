@@ -11,3 +11,10 @@ close.onclick = function() {
   modal.style.display = "none";
   video.src = video.src;
 };
+
+const swiper = new Swiper(".swiper-container", {
+  slidesPerView: 4,
+  centeredSlides: false,
+  spaceBetween: 10,
+  grabCursor: true
+});
