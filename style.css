@@ -9,6 +9,12 @@ body {
   font-weight: 300;
   font-size: 15px;
   line-height: 27px;
+  min-width: 1140px;
+}
+
+.body__container {
+  position: relative;
+  width: 100%;
 }
 
 li {
@@ -17,18 +23,18 @@ li {
 
 .clearfix::after {
   content: "";
-  clear: both;
   display: block;
+  clear: both;
 }
 
 .container {
-  max-width: 1140px;
+  width: 1140px;
   margin: 0 auto;
 }
 
 .inner {
   display: flex;
-  margin-top: 30px;
+  padding-top: 30px;
 }
 
 .section {
@@ -84,6 +90,7 @@ li {
   background: url(./images/leaf.png) no-repeat left center/12.5%;
   padding: 5% 0;
   margin-bottom: 50px;
+  min-width: 1140px;
 }
 
 .section--banner img {
@@ -95,7 +102,6 @@ li {
 }
 
 .section--banner .text-box {
-  width: 600px;
 }
 
 .text-box .btn-wrapper {
@@ -209,7 +215,7 @@ iframe {
 
 .section--about {
   text-align: center;
-  max-width: 100%;
+  width: 1140px;
   margin: 0 auto;
   margin-top: 50px;
 }
@@ -222,13 +228,13 @@ iframe {
 #china-rose {
   position: absolute;
   top: 0;
-  left: 385px;
+  left: 0;
 }
 
 #jasmine {
   position: absolute;
-  top: 190px;
-  right: 104px;
+  top: 140px;
+  right: 0;
 }
 
 .section--about .text-box img {
@@ -260,7 +266,9 @@ iframe {
 }
 
 .service-image {
-  max-width: 100%;
+}
+
+.section--service ul {
 }
 
 .service-image li {
@@ -309,6 +317,9 @@ iframe {
 
 /* Procedures */
 .section--procedures {
+  width: 1148px;
+  margin: 0 auto;
+  margin-bottom: 90px;
 }
 
 .section--procedures .text-box {
@@ -360,4 +371,74 @@ iframe {
   width: 170px;
   margin: 0 auto;
   color: white;
+}
+
+/* Testimonial */
+
+.section--testimonial {
+  background: #fff9f8;
+  padding: 36px 0;
+}
+
+.section--testimonial .slide-wrapper {
+  width: 900px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.section--testimonial .slideshow-container {
+  position: relative;
+  width: 1800px;
+  margin: 0 auto;
+  display: flex;
+  animation: 10s slider ease infinite;
+}
+
+.section--testimonial .slides {
+  width: 900px;
+  /* margin: 20px auto; */
+  text-align: center;
+}
+
+@keyframes slider {
+  0% {
+    left: 0px;
+  }
+  30% {
+    left: 0px;
+  }
+  50% {
+    left: -900px;
+  }
+  70% {
+    left: -900px;
+  }
+  100% {
+    left: -900px;
+  }
+}
+
+.slides img {
+  margin-bottom: 13px;
+}
+
+.slides p {
+  font-family: "Rufina", serif;
+  font-size: 18px;
+  line-height: 35px;
+  margin: 20px 0;
+}
+
+.client-info img {
+  border-radius: 50%;
+}
+
+.client-info p {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.client-info span {
+  font-size: 18px;
+  font-weight: 500;
 }
