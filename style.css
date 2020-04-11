@@ -12,6 +12,10 @@ body {
   min-width: 1140px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .body__container {
   position: relative;
   width: 100%;
@@ -441,4 +445,86 @@ iframe {
 .client-info span {
   font-size: 18px;
   font-weight: 500;
+}
+
+/* Appointment */
+
+.section--appointment {
+  margin: 50px 0;
+  display: flex;
+  background: #fff9f8;
+}
+
+.section--appointment .appointment-img-container img {
+}
+
+.appointment-form-container {
+  padding: 40px 0 0 60px;
+  width: 100%;
+}
+
+.appointment-form-container form {
+  max-width: 800px;
+}
+
+.input-wrapper {
+  margin: 20px;
+}
+
+.input-decoration {
+  border: none;
+  background: none;
+  border-bottom: 1px solid #d4d3d3;
+  padding: 15px 0;
+  width: 49%;
+  color: gray;
+}
+
+.submit-btn {
+  margin: 20px;
+  border: none;
+  background: #ff817e;
+  color: #fff;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  color: #212529;
+}
+
+/* footer */
+.footer {
+  background: #fff9f8;
+}
+
+.footer--container {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.footer-nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav {
+  margin: 40px 0;
+}
+
+.footer-nav li {
+  margin: 0 20px;
+}
+
+.footer-nav li a {
+  color: #263a41;
+  font-size: 14px;
+  font-weight: 500;
+  font-weight: 700;
 }

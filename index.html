@@ -27,7 +27,7 @@
             <a href="index.html">
               <img src="./images/logo.png" alt="Logo" />
             </a>
-            <div class="header__menu">
+            <nav class="header__menu">
               <ul>
                 <li>HOME</li>
                 <li>ABOUT</li>
@@ -35,7 +35,7 @@
                 <li>SERVICE</li>
                 <li>CONTACT</li>
               </ul>
-            </div>
+            </nav>
           </div>
         </div>
       </header>
@@ -234,6 +234,85 @@
           </div>
         </div>
       </section>
+
+      <!-- Appointment  -->
+      <section class="section--appointment section">
+        <div class="appointment-img-container">
+          <img src="./images/appointment-img.jpg" alt="appointment-img" />
+        </div>
+        <div class="appointment-form-container">
+          <form action="#">
+            <div class="input-wrapper">
+              <input
+                class="input-decoration"
+                type="text"
+                name="name"
+                placeholder="NAME"
+              />
+              <input
+                class="input-decoration"
+                type="email"
+                name="email"
+                placeholder="EMAIL ADDRESS"
+              />
+            </div>
+            <div class="input-wrapper">
+              <select class="input-decoration" name="SELECT SERVICE" id="">
+                <option value="SELECT SERVICE">SELECT SERVICE</option>
+                <option value="SELECT SERVICE1">SELECT SERVICE1</option>
+              </select>
+              <input
+                class="input-decoration"
+                type="tel"
+                name="tel"
+                placeholder="PHONE NUMBER"
+              />
+            </div>
+            <div class="input-wrapper">
+              <input
+                class="input-decoration date-time-decoration"
+                type="date"
+              />
+              <input
+                class="input-decoration date-time-decoration"
+                type="time"
+              />
+            </div>
+            <div class="input-wrapper">
+              <textarea
+                class="input-decoration"
+                name="note"
+                id="note"
+                cols="30"
+                rows="1"
+                placeholder="YOUR NOTES"
+              ></textarea>
+            </div>
+            <button class="submit-btn" type="submit">
+              make an appointment
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer--container">
+          <a href="#">
+            <img src="./images/logo.png" alt="logo" />
+          </a>
+          <nav class="footer-nav">
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#">FEATURE</a></li>
+              <li><a href="#">SERVICE</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+          </nav>
+          <p>© COPYRIGHT 2019 THEMEIES.COM. ALL RIGHTS RESERVED.</p>
+        </div>
+      </footer>
     </div>
     <script src="index.js"></script>
   </body>
