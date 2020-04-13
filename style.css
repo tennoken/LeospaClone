@@ -9,7 +9,7 @@ body {
   font-weight: 300;
   font-size: 15px;
   line-height: 27px;
-  min-width: 1140px;
+  /* max-width: 1140px; */
 }
 
 a {
@@ -32,7 +32,7 @@ li {
 }
 
 .container {
-  width: 1140px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -88,13 +88,20 @@ li {
   margin: 0 20px;
 }
 
+.header__menu li a {
+  color: #263a41;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 /* banner */
 
 .section--banner {
   background: url(./images/leaf.png) no-repeat left center/12.5%;
   padding: 5% 0;
   margin-bottom: 50px;
-  min-width: 1140px;
+  /* min-width: 1140px; */
 }
 
 .section--banner img {
@@ -106,6 +113,7 @@ li {
 }
 
 .section--banner .text-box {
+  width: 700px;
 }
 
 .text-box .btn-wrapper {
@@ -219,7 +227,7 @@ iframe {
 
 .section--about {
   text-align: center;
-  width: 1140px;
+  max-width: 1200px;
   margin: 0 auto;
   margin-top: 50px;
 }
@@ -321,7 +329,7 @@ iframe {
 
 /* Procedures */
 .section--procedures {
-  width: 1148px;
+  /* width: 1148px; */
   margin: 0 auto;
   margin-bottom: 90px;
 }
@@ -459,7 +467,7 @@ iframe {
 }
 
 .appointment-form-container {
-  padding: 40px 0 0 60px;
+  padding: 40px;
   width: 100%;
 }
 
@@ -478,6 +486,10 @@ iframe {
   padding: 15px 0;
   width: 49%;
   color: gray;
+}
+
+.submit-btn-container {
+  text-align: center;
 }
 
 .submit-btn {
@@ -527,4 +539,66 @@ iframe {
   font-size: 14px;
   font-weight: 500;
   font-weight: 700;
+}
+
+/* Media Big */
+@media screen and (min-width: 1440px) {
+}
+
+/* Media medium*/
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 700px;
+  }
+
+  /* Header */
+
+  .header__menu {
+    padding-left: 26px;
+  }
+
+  /* banner */
+
+  .section--banner img {
+  }
+
+  .section--banner .text-box {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  /* Procedures */
+  .section--procedures .post-box img {
+    width: 100%;
+  }
+
+  .section--procedures .post-box li {
+    max-width: 30%;
+  }
+
+  .section--procedures .post-box ul li:nth-child(2) {
+    margin: 0 31px;
+  }
+
+  .section--procedures .post-box p {
+    width: auto;
+  }
+
+  /* Testimonial */
+  .section--testimonial {
+    display: none;
+  }
+
+  /* appointment */
+  .appointment-img-container img {
+    display: none;
+  }
+
+  .appointment-form-container form {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
 }
