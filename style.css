@@ -32,7 +32,7 @@ li {
 }
 
 .container {
-  width: 1024px;
+  max-width: 1024px;
   /* width: auto; */
   margin: 0 auto;
 }
@@ -113,7 +113,7 @@ li {
 }
 
 .section--banner .text-box {
-  width: 700px;
+  max-width: 700px;
   /* width: auto; */
 }
 
@@ -609,6 +609,11 @@ iframe {
 
 @media screen and (max-width: 768px) {
   /* Header */
+
+  header .container {
+    /* width: ? */
+  }
+
   header .inner {
     display: block;
   }
@@ -667,11 +672,27 @@ iframe {
   }
 
   /* banner */
+
+  .section--banner {
+    background-image: none;
+    padding: 5% 5%;
+  }
+
+  .section--banner .text-box h2 {
+    font-size: 48px;
+  }
+
   .section--banner img {
     display: none;
   }
 
   /* About */
+  #china-rose {
+    position: absolute;
+    top: -45px;
+    left: 0;
+  }
+
   #jasmine {
     position: absolute;
     top: 345px;
@@ -681,6 +702,11 @@ iframe {
   /* Procedures */
   .section--procedures .post-box .text-box h2 {
     font-size: 18px;
+  }
+
+  .section--procedures .post-box li {
+    max-width: 80%;
+    margin: 30px 0;
   }
 
   .section--procedures .post-box ul li:nth-child(2) {
