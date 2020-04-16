@@ -102,6 +102,7 @@ li {
   background: url(./images/leaf.png) no-repeat left center/12.5%;
   padding: 5% 0;
   margin-bottom: 50px;
+  margin-top: 30px;
 }
 
 .section--banner img {
@@ -231,6 +232,7 @@ iframe {
   max-width: 1200px;
   margin: 0 auto;
   margin-top: 50px;
+  padding: 50px 0;
 }
 
 .section--about .text-box {
@@ -276,6 +278,7 @@ iframe {
 
 .section--service {
   margin: 60px 0px;
+  padding: 40px 0;
 }
 
 .service-image {
@@ -668,7 +671,7 @@ iframe {
   .header__menu ul li {
     text-align: right;
     padding: 20px 0;
-    margin: 0 11px;
+    margin: 0 40px;
   }
 
   /* banner */
@@ -695,7 +698,7 @@ iframe {
 
   #jasmine {
     position: absolute;
-    top: 345px;
+    top: 400px;
     right: 21px;
   }
 
@@ -711,5 +714,25 @@ iframe {
 
   .section--procedures .post-box ul li:nth-child(2) {
     margin: 0px 18px;
+  }
+
+  /* Footer */
+
+  .footer-nav ul {
+    display: block;
+  }
+
+  .footer-nav li {
+    margin: 25px 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #china-rose {
+    display: none;
+  }
+
+  #jasmine {
+    display: none;
   }
 }
