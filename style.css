@@ -32,7 +32,8 @@ li {
 }
 
 .container {
-  width: 1200px;
+  width: 1024px;
+  /* width: auto; */
   margin: 0 auto;
 }
 
@@ -101,7 +102,6 @@ li {
   background: url(./images/leaf.png) no-repeat left center/12.5%;
   padding: 5% 0;
   margin-bottom: 50px;
-  /* min-width: 1140px; */
 }
 
 .section--banner img {
@@ -114,6 +114,7 @@ li {
 
 .section--banner .text-box {
   width: 700px;
+  /* width: auto; */
 }
 
 .text-box .btn-wrapper {
@@ -573,12 +574,18 @@ iframe {
     width: 100%;
   }
 
+  .section--procedures .post-box ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .section--procedures .post-box li {
-    max-width: 30%;
+    max-width: 50%;
+    margin: 30px 0;
   }
 
   .section--procedures .post-box ul li:nth-child(2) {
-    margin: 0 31px;
   }
 
   .section--procedures .post-box p {
