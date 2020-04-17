@@ -285,6 +285,8 @@ iframe {
 }
 
 .section--service ul {
+  max-width: 1904px;
+  margin: 0 auto;
 }
 
 .service-image li {
@@ -614,7 +616,6 @@ iframe {
   /* Header */
 
   header .container {
-    /* width: ? */
   }
 
   header .inner {
@@ -631,7 +632,7 @@ iframe {
     padding: 28px 15px;
     position: absolute;
     top: 40px;
-    right: 27px;
+    right: 16px;
   }
 
   .header__menu .navicon-bar {
@@ -716,6 +717,15 @@ iframe {
     margin: 0px 18px;
   }
 
+  /* Appointment */
+  .appointment-form-container {
+    padding: 7px;
+  }
+
+  .input-wrapper {
+    margin: 7px;
+  }
+
   /* Footer */
 
   .footer-nav ul {
@@ -728,6 +738,26 @@ iframe {
 }
 
 @media only screen and (max-width: 600px) {
+  /* Header */
+  header {
+    margin-bottom: 67px;
+  }
+
+  /* banner */
+  .text-box .btn-wrapper {
+    margin: 20px auto;
+    display: block;
+  }
+
+  .section--banner .video-btn {
+    padding-left: 0;
+    padding-top: 40px;
+  }
+
+  /* About */
+  .section--about {
+    padding: 125px 0 0 0;
+  }
   #china-rose {
     display: none;
   }
