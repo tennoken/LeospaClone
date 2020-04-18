@@ -680,6 +680,7 @@ iframe {
   .section--banner {
     background-image: none;
     padding: 5% 5%;
+    margin-top: 78px;
   }
 
   .section--banner .text-box h2 {
